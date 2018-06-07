@@ -4,9 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>calculator</title>
+  <title>进制转换</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/jquery.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/index.js"></script>
 </head>
 <body>
-  test
+  <div>
+    <div class="page-header">
+      <h1>进制转换</h1>
+    </div>
+    <div class="section clearfix">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="input-group">
+            <div class="input-group-btn">
+              <button type="button" class="input_btn btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">十进制 <span class="caret"></span></button>
+              <ul class="dropdown-menu input_list">
+                <li><a href="#">二进制</a></li>
+                <li><a href="#">八进制</a></li>
+                <li><a href="#">十进制</a></li>
+                <li><a href="#">十六进制</a></li>
+              </ul>
+            </div><!-- /btn-group -->
+            <input type="text" class="form-control input_text" aria-label="...">
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+        <div class="col-lg-6">
+          <div class="input-group">
+            <input type="text" class="form-control output_text" aria-label="...">
+            <div class="input-group-btn">
+              <button type="button" class="output_btn btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">十进制 <span class="caret"></span></button>
+              <ul class="dropdown-menu dropdown-menu-right output_list">
+                <li><a href="#">二进制</a></li>
+                <li><a href="#">八进制</a></li>
+                <li><a href="#">十进制</a></li>
+                <li><a href="#">十六进制</a></li>
+              </ul>
+            </div><!-- /btn-group -->
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+      </div><!-- /.row -->
+      <div class="result_btn_container">
+        <button type="button" class="btn conversion_btn btn-default">转换</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

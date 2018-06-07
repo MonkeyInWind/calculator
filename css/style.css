@@ -1,0 +1,25 @@
+h1 {
+  padding-left: 50px;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix: after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.section {
+  padding: 0 30px;
+}
+
+.result_btn_container {
+  padding-top: 20px;
+}
